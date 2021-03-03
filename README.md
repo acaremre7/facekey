@@ -2,7 +2,7 @@
 
 ###Description
 
-This is an OpenCV Java implementation project, formed by three microservices. Main purpose of this project is producing a POC for a face recognition application with following capabilities; 
+This is an OpenCV Java implementation POC, formed by three microservices. Main purpose of this project is producing a POC for a face recognition application with following capabilities; 
 
 - Face **registration** with names
 - **Training** to recognize and match those names and pictures of faces
@@ -10,4 +10,4 @@ This is an OpenCV Java implementation project, formed by three microservices. Ma
 
 The application is distributed to three microservices, **registration, training and recognition**. 
 
-Please don't forget this is an unfinished project, but a working POC which needs lots of work.
+Please don't forget this is an unfinished project which needs lots of work, which is made to play and have fun with OpenCV in 2019.
