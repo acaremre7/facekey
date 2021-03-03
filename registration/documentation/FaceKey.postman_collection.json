@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "91a83018-a4a1-49d7-bdec-0b92ebe2299a",
+		"name": "FaceKey",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": ""
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080",
+					"host": [
+						"localhost"
+					],
+					"port": "8080"
+				},
+				"description": "File sending"
+			},
+			"response": [
+				{
+					"name": "localhost:8080",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": null
+								}
+							]
+						},
+						"url": {
+							"raw": "localhost:8080",
+							"host": [
+								"localhost"
+							],
+							"port": "8080"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain;charset=UTF-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "62"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 06 May 2019 22:21:18 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "Image saved successfully: a9732a48-e833-3348-8452-22e9bb05a764"
+				}
+			]
+		}
+	]
+}
