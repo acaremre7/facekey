@@ -1,6 +1,6 @@
 # Facekey Application
 
-###Description
+### Description
 
 This is an OpenCV Java implementation POC, formed by three microservices. Main purpose of this project is producing a POC for a face recognition application with following capabilities; 
 
